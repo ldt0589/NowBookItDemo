@@ -1,6 +1,3 @@
-# NowBookItDemo
-This is a demo of NowBookIt
-
 ## Test Automation Framework Cucumber TestNG and Selenium Java:
 
 **USING IMPORTANT LIBRARIES**
@@ -11,6 +8,7 @@ This is a demo of NowBookIt
 5. Log4j: 3.0.0-alpha1
 6. Extent Report: 5.0.9
 7. Maven: 3.9.0
+8. Java: 17
 
 **SOME FEATURES IN FRAMEWORK**
 1. Run the parallel Scenario on feature file
@@ -89,6 +87,7 @@ This is a demo of NowBookIt
     => ***mvn clean test***
 
 ### Project structure
+
 ```
 📦NowBookItDemo
  ┣ 📂src
