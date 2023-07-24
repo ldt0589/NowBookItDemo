@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 @Test
 @CucumberOptions(
         features = "src/test/resources/features/TC02_WidgetBooking.feature",
-        glue = {"nowbookit.com.projects.website.cms.stepdefinitions",
+        glue = {"nowbookit.com.projects.website.nbi.stepdefinitions",
                 "nowbookit.com.hooks"},
         plugin = {"nowbookit.com.hooks.CucumberListener",
                 "pretty",
