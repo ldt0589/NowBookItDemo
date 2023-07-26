@@ -36,16 +36,18 @@
 
 **2. Cucumber Report**
 
+- See Cucumber report after executing at /reports/CucumberExtentReports/CucumberExtentReports.html
+
 **3. Extent Report**
 
 - Config from src/test/resources/extent.properties
 
-**6. Write Log to file**
+**4. Write Log to file**
 
 - Call class: Log.info , Log.pass, Log.error,... (**Log** is a custom global class from Log4j2)
   (**_import nowbookit.com.utils.Log.java_**)
 
-**7. Record Screenshot**
+**5. Record Screenshot**
 
 - Setup in **_config.properties_** file
   (**_src/test/resources/config/config.properties_**)
@@ -54,28 +56,28 @@
 - screenshot_skipped_steps=yes or no
 - screenshot_all_steps=yes or no
 
-**8. Read data test from Excel file**
+**6. Read data test from Excel file**
 
 - Create function with annotaion **DataSupplier** on **_src/main/java/nowbookit/com/utils/DataProviderUtils.java_**
 - Call the name of **DataSupplier** above in the test cases as DataProvider of TestNG
 - Read excel with Map and Hashtable
 
-**9. Base function in the package**
+**7. Base function in the package**
 
 - **_src/main/java/nowbookit/com/utils_**
 - **_src/main/java/nowbookit/com/helpers_**
 
-**10. Read data test from JSON file**
+**8. Read data test from JSON file**
 
 - **JsonUtils** class select the json file path and call **"get"** method with **key**
 
-**11. Main keyword is WebUI**
+**9. Main keyword is WebUI**
 
 - WebUI class is main keyword in Framework. It contains common functions
 - How to use: WebUI.function_name
 - Example: WebUI.setWindowSize(1024, 768), WebUI.screenshotElement(By by, String elementName),...
 
-**12. Call test case:**
+**10. Call test case:**
 
 - Run test case Gherkin-Cucumber: 
     => src/test/resources/features/TC01_WalkinBooking.feature
