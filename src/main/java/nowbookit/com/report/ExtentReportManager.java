@@ -119,7 +119,7 @@ public class ExtentReportManager {
 
     synchronized public static void addAuthors(AuthorType[] authors) {
         if (authors == null) {
-            ExtentTestManager.getExtentTest().assignAuthor("ANHTESTER");
+            ExtentTestManager.getExtentTest().assignAuthor("Automation Test");
         } else {
             for (AuthorType author : authors) {
                 ExtentTestManager.getExtentTest().assignAuthor(author.toString());
