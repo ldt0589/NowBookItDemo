@@ -79,10 +79,10 @@ public class ExtentReportManager {
         ExtentTestManager.setExtentTest(extentReports.createTest(testCaseName, description));
     }
 
-    public static void removeTest(String testCaseName) {
-        // ExtentManager.setExtentTest(extent.createTest(testCaseName));
-        extentReports.removeTest(testCaseName);
-    }
+//    public static void removeTest(String testCaseName) {
+//        // ExtentManager.setExtentTest(extent.createTest(testCaseName));
+//        extentReports.removeTest(testCaseName);
+//    }
 
     /**
      * Adds the screenshot.
