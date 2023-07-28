@@ -48,12 +48,12 @@ public class BookingSteps {
         adminBookingPage.clickOnSave();
     }
 
-    @Then("Verify that Walk-in Booking is created successfully with {string}, {string}, {string}, {string}")
-    public void verifyThatWalkInBookingIsCreatedSuccessfullyWith(String table, String prefixName, String phone, String note) {
+    @Then("Verify that Walk-in Booking is created successfully")
+    public void verifyThatWalkInBookingIsCreatedSuccessfullyWith() {
         adminBookingPage.openNewBooking();
-        adminBookingPage.verifyBookingTableInfo(table);
-        adminBookingPage.verifyBookingDetailsInfo(prefixName, phone);
-        adminBookingPage.verifyBookingNotesInfo(note);
+        adminBookingPage.verifyBookingTableInfo();
+        adminBookingPage.verifyBookingDetailsInfo();
+        adminBookingPage.verifyBookingNotesInfo();
     }
 
     @Then("Verify that popup Booked displays")
@@ -102,13 +102,15 @@ public class BookingSteps {
         adminBookingPage.verifyThankYouPageDisplays();
     }
 
-    @And("Verify that Widget Booking is created successfully with {string}, {string}, {string}, {string}, {string}, date plus {int}")
+    @And("Verify that Widget Booking is created successfully with date plus {int}")
     public void verifyThatWidgetBookingIsCreatedSuccessfullyWith(String firstName, String lastName, String phone, String service, String numberPeople, int numberDate) {
         adminBookingPage.openBookingDate(numberDate);
-        adminBookingPage.openWidgetBookingDetail(firstName, lastName);
-        adminBookingPage.verifyWidgetBookingCustomerInfo(firstName, lastName, phone);
-        adminBookingPage.verifyWidgetBookingServiceInfo(service);
-        adminBookingPage.verifyWidgetBookingPeople(numberPeople);
+        adminBookingPage.openWidgetBookingDetail();
+        adminBookingPage.verifyWidgetBookingCustomerInfo();
+        adminBookingPage.verifyWidgetBookingServiceInfo();
+        adminBookingPage.verifyWidgetBookingPeople();
+        adminBookingPage.verifyWidgetBookingDate();
+        adminBookingPage.verifyWidgetBookingTime();
     }
 
     @When("User navigate to Booking page")

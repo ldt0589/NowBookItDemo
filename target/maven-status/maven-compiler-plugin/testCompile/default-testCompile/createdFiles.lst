@@ -1,0 +1,16 @@
+nowbookit/com/runners/WalkinBooking_TestRunner.class
+nowbookit/com/projects/website/nbi/stepdefinitions/DashboardSteps.class
+nowbookit/com/hooks/Hooks.class
+nowbookit/com/listeners/TestListener.class
+nowbookit/com/projects/website/nbi/pages/adminBookingPage.class
+nowbookit/com/runners/TestRunnerAllFeatureByTag.class
+nowbookit/com/hooks/CucumberListener.class
+nowbookit/com/projects/website/nbi/pages/adminDashboardPage.class
+nowbookit/com/projects/website/nbi/stepdefinitions/LoginSteps.class
+nowbookit/com/common/BaseTest.class
+nowbookit/com/projects/website/nbi/pages/adminLoginPage.class
+nowbookit/com/runners/WidgetBooking_TestRunner.class
+nowbookit/com/projects/website/nbi/stepdefinitions/BookingSteps.class
+nowbookit/com/common/CommonSteps.class
+nowbookit/com/hooks/TestContext.class
+nowbookit/com/dataprovider/DataProviderManager.class

@@ -4,7 +4,7 @@
     <test name="Test Cucumber All Feature">
         <parameter name="BROWSER" value="chrome"/>
         <classes>
-            <class name="nowbookit.com.runners.WalkinBooking_TestRunner"/>
+            <class name="nowbookit.com.runners.TestRunnerAllFeatureByTag"/>
         </classes>
     </test>
 </suite>

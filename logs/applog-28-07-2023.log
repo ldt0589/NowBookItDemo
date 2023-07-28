@@ -1,0 +1,6 @@
+[INFO] 28-07-2023 23:01:28 [main] [Utils] - [TestNG] Running:
+  /Users/thangle/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[INFO] 28-07-2023 23:01:29 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 28-07-2023 23:01:39 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on mac (b01b57139122bad80c1c753a61318218)
+[INFO] 28-07-2023 23:01:46 [main] [LogUtils] - Open Admin Login Page URL: https://admin-dev.nowbookit.com/

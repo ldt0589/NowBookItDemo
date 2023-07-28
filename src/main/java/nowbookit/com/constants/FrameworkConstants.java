@@ -54,7 +54,8 @@ public final class FrameworkConstants {
     public static final String YES = "yes";
     public static final String NO = "no";
     public static final String AUTHOR = "Automation Test";
-
+    public static final String USERNAME = "z.d.r.a.v.k.o.stojkoski@gmail.com";
+    public static final String PASSWORD = "ThePassword01##!!";
     public static String getExtentReportFilePath() {
         if (EXTENT_REPORT_FILE_PATH.isEmpty()) {
             EXTENT_REPORT_FILE_PATH = ReportUtils.createExtentReportPath();

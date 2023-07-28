@@ -20,8 +20,7 @@ Feature: Create the Widget Booking
     And User clicks on button BOOK NOW
     Then Verify that Thank You page displays
     When User navigate to Booking page
-    And Verify that Widget Booking is created successfully with "<firstName>", "<lastName>", "<phone>", "<service>", "<numberPeople>", date plus 1
-    And Verify that Widget Booking is created successfully with correct date time
+    And Verify that Widget Booking is created successfully with date plus 1
 
     Examples:
       | firstName | lastName   | phone     | email          |service  |numberPeople|

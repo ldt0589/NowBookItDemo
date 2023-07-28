@@ -1,0 +1,194 @@
+[INFO] 24-07-2023 14:00:12 [main] [Utils] - [TestNG] Running:
+  /Users/thangle/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[INFO] 24-07-2023 14:00:13 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 24-07-2023 14:00:20 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on mac (ef5d6f4e74f6c99a7429defd571dcdd7)
+[INFO] 24-07-2023 14:00:27 [main] [LogUtils] - Open Admin Login Page URL: https://admin-dev.nowbookit.com/
+[INFO] 24-07-2023 14:00:27 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:00:27 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:00:29 [main] [LogUtils] - Set text z.d.r.a.v.k.o.stojkoski@gmail.com on By.xpath: //input[@name='username']
+[INFO] 24-07-2023 14:00:30 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:00:30 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:00:31 [main] [LogUtils] - Set text ThePassword01##!! on By.xpath: //input[@name='password']
+[INFO] 24-07-2023 14:00:31 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:00:33 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Login']
+[INFO] 24-07-2023 14:00:34 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:00:35 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Admin Portal']
+[INFO] 24-07-2023 14:00:38 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:00:44 [main] [LogUtils] - Clicked on the element By.xpath: //td[text()='My Pizza Shop']
+[INFO] 24-07-2023 14:00:52 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:00:53 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Open Restaurant']
+[INFO] 24-07-2023 14:01:47 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:01:47 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:01:48 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:01:49 [main] [LogUtils] - Set text z.d.r.a.v.k.o.stojkoski@gmail.com on By.xpath: //input[@name='username']
+[INFO] 24-07-2023 14:01:49 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:01:49 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:01:49 [main] [LogUtils] - Set text ThePassword01##!! on By.xpath: //input[@name='password']
+[INFO] 24-07-2023 14:01:50 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:01:50 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Login']
+[INFO] 24-07-2023 14:02:14 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(@data-e2e,'walkIn')]
+[INFO] 24-07-2023 14:02:15 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:02:19 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(@data-e2e,'walkIn')]
+[INFO] 24-07-2023 14:02:26 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:02:40 [main] [LogUtils] - Clicked on the element By.xpath: //md-tab-item[contains(.,'Booking')]
+[INFO] 24-07-2023 14:02:41 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:02:44 [main] [LogUtils] - Clicked on the element By.xpath: //md-select[@placeholder='Table']
+[INFO] 24-07-2023 14:02:45 [main] [LogUtils] - element.getText(): Auto
+[INFO] 24-07-2023 14:02:45 [main] [LogUtils] - element.getText(): T1 * C21 outside
+[INFO] 24-07-2023 14:02:47 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:02:50 [main] [LogUtils] - Clicked on the element By.xpath: //md-tab-item[contains(.,'Customer')]
+[INFO] 24-07-2023 14:02:51 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:02:58 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:03:04 [main] [LogUtils] - Set text Automation39180 on By.xpath: //input[@name='firstName']
+[INFO] 24-07-2023 14:03:04 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:03:04 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:03:09 [main] [LogUtils] - Set text 423845803 on By.xpath: //input[@name='phone']
+[INFO] 24-07-2023 14:03:10 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:03:13 [main] [LogUtils] - Clicked on the element By.xpath: //md-tab-item[contains(.,'Notes')]
+[INFO] 24-07-2023 14:03:14 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:03:14 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:03:15 [main] [LogUtils] - Set text NoteTest on By.xpath: //md-input-container[contains(.,'Booking Notes')]/div/textarea
+[INFO] 24-07-2023 14:03:15 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:03:17 [main] [LogUtils] - Clicked on the element By.xpath: //button[.='Save']
+[INFO] 24-07-2023 14:03:22 [main] [LogUtils] - Verify element present By.xpath: //booking-dialog-header//h2[text()='BOOKED']
+[INFO] 24-07-2023 14:03:22 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:03:27 [main] [LogUtils] - Clicked on the element By.xpath: //booking-dialog-header/following-sibling::div[contains(@class,'new-booking')]
+[INFO] 24-07-2023 14:03:28 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:04:48 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:04:49 [main] [LogUtils] - actualElementText: t1*c21outside
+[INFO] 24-07-2023 14:04:49 [main] [LogUtils] - expectedElementText: t1*c21outside
+[INFO] 24-07-2023 14:04:49 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 24-07-2023 14:04:49 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:05:01 [main] [LogUtils] - Clicked on the element By.xpath: //md-tab-item/div[@data-e2e-tab-label='details']
+[INFO] 24-07-2023 14:05:02 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:05:03 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:05:03 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:05:04 [main] [LogUtils] - Clicked on the element By.xpath: //md-tab-item[contains(.,'Notes')]
+[INFO] 24-07-2023 14:05:04 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:05:05 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 14:05:05 [main] [LogUtils] - actualElementText: notetest
+[INFO] 24-07-2023 14:05:05 [main] [LogUtils] - expectedElementText: notetest
+[INFO] 24-07-2023 14:05:05 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 24-07-2023 15:29:20 [main] [Utils] - [TestNG] Running:
+  /Users/thangle/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[INFO] 24-07-2023 15:29:21 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 24-07-2023 15:29:59 [main] [Utils] - [TestNG] Running:
+  /Users/thangle/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[INFO] 24-07-2023 15:30:00 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 24-07-2023 15:30:56 [main] [Utils] - [TestNG] Running:
+  /Users/thangle/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[INFO] 24-07-2023 15:30:56 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 24-07-2023 15:31:04 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on mac (610189f8771428a6c15bd11725e58792)
+[INFO] 24-07-2023 15:31:37 [main] [LogUtils] - Open Admin Login Page URL: https://admin-dev.nowbookit.com/
+[INFO] 24-07-2023 15:31:37 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:31:38 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:31:41 [main] [LogUtils] - Set text z.d.r.a.v.k.o.stojkoski@gmail.com on By.xpath: //input[@name='username']
+[INFO] 24-07-2023 15:31:41 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:31:41 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:31:43 [main] [LogUtils] - Set text ThePassword01##!! on By.xpath: //input[@name='password']
+[INFO] 24-07-2023 15:31:43 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:31:45 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Login']
+[INFO] 24-07-2023 15:31:47 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:31:47 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Admin Portal']
+[INFO] 24-07-2023 15:31:53 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:32:01 [main] [LogUtils] - Clicked on the element By.xpath: //td[text()='My Pizza Shop']
+[INFO] 24-07-2023 15:32:13 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:32:15 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Open Restaurant']
+[INFO] 24-07-2023 15:33:05 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:33:05 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:33:06 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:33:07 [main] [LogUtils] - Set text z.d.r.a.v.k.o.stojkoski@gmail.com on By.xpath: //input[@name='username']
+[INFO] 24-07-2023 15:33:08 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:33:08 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:33:09 [main] [LogUtils] - Set text ThePassword01##!! on By.xpath: //input[@name='password']
+[INFO] 24-07-2023 15:33:10 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:33:11 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Login']
+[INFO] 24-07-2023 15:34:16 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(@data-e2e,'walkIn')]
+[INFO] 24-07-2023 15:34:17 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:34:25 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(@data-e2e,'walkIn')]
+[INFO] 24-07-2023 15:34:35 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:34:38 [main] [LogUtils] - Clicked on the element By.xpath: //md-tab-item[contains(.,'Booking')]
+[ERROR] 24-07-2023 15:36:19 [main] [LogUtils] - Element not exist. By.xpath: //md-select[@placeholder='Table']
+[INFO] 24-07-2023 15:42:25 [main] [Utils] - [TestNG] Running:
+  /Users/thangle/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[INFO] 24-07-2023 15:42:26 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 24-07-2023 15:42:35 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on mac (a36184ec2cd6b000aaf5b9c909e7d767)
+[INFO] 24-07-2023 15:47:30 [main] [Utils] - [TestNG] Running:
+  /Users/thangle/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[INFO] 24-07-2023 15:47:31 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 24-07-2023 15:48:35 [main] [Utils] - [TestNG] Running:
+  /Users/thangle/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[INFO] 24-07-2023 15:48:36 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 24-07-2023 15:48:44 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on mac (d88ee0a20fdeccc4b56a5111ba82a873)
+[INFO] 24-07-2023 15:49:00 [main] [LogUtils] - Open Admin Login Page URL: https://admin-dev.nowbookit.com/
+[INFO] 24-07-2023 15:49:00 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:49:00 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:49:03 [main] [LogUtils] - Set text z.d.r.a.v.k.o.stojkoski@gmail.com on By.xpath: //input[@name='username']
+[INFO] 24-07-2023 15:49:03 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:49:04 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:49:05 [main] [LogUtils] - Set text ThePassword01##!! on By.xpath: //input[@name='password']
+[INFO] 24-07-2023 15:49:06 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:49:08 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Login']
+[INFO] 24-07-2023 15:49:10 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:49:10 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Admin Portal']
+[INFO] 24-07-2023 15:49:15 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:49:23 [main] [LogUtils] - Clicked on the element By.xpath: //td[text()='My Pizza Shop']
+[INFO] 24-07-2023 15:49:34 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:49:36 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Open Restaurant']
+[INFO] 24-07-2023 15:50:34 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:50:34 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:50:36 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:50:37 [main] [LogUtils] - Set text z.d.r.a.v.k.o.stojkoski@gmail.com on By.xpath: //input[@name='username']
+[INFO] 24-07-2023 15:50:37 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:50:37 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:50:37 [main] [LogUtils] - Set text ThePassword01##!! on By.xpath: //input[@name='password']
+[INFO] 24-07-2023 15:50:38 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:50:38 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Login']
+[INFO] 24-07-2023 15:51:07 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(@data-e2e,'walkIn')]
+[INFO] 24-07-2023 15:51:07 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:51:10 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(@data-e2e,'walkIn')]
+[INFO] 24-07-2023 15:51:18 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:51:22 [main] [LogUtils] - Clicked on the element By.xpath: //md-tab-item[contains(.,'Booking')]
+[ERROR] 24-07-2023 15:53:05 [main] [LogUtils] - Element not exist. By.xpath: //md-select[@placeholder='Table']
+[INFO] 24-07-2023 15:55:57 [main] [Utils] - [TestNG] Running:
+  /Users/thangle/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[INFO] 24-07-2023 15:55:58 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 24-07-2023 15:56:05 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on mac (85285208405163a4b8d8d97eca4eff1f)
+[INFO] 24-07-2023 15:56:17 [main] [LogUtils] - Open Admin Login Page URL: https://admin-dev.nowbookit.com/
+[INFO] 24-07-2023 15:56:17 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:56:18 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:56:21 [main] [LogUtils] - Set text z.d.r.a.v.k.o.stojkoski@gmail.com on By.xpath: //input[@name='username']
+[INFO] 24-07-2023 15:56:21 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:56:21 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:56:25 [main] [LogUtils] - Set text ThePassword01##!! on By.xpath: //input[@name='password']
+[INFO] 24-07-2023 15:56:25 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:56:27 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Login']
+[INFO] 24-07-2023 15:56:29 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:56:29 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Admin Portal']
+[INFO] 24-07-2023 15:56:35 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:56:43 [main] [LogUtils] - Clicked on the element By.xpath: //td[text()='My Pizza Shop']
+[INFO] 24-07-2023 15:56:53 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:56:55 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Open Restaurant']
+[INFO] 24-07-2023 15:57:40 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:57:40 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:57:40 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:57:41 [main] [LogUtils] - Set text z.d.r.a.v.k.o.stojkoski@gmail.com on By.xpath: //input[@name='username']
+[INFO] 24-07-2023 15:57:41 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:57:41 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:57:42 [main] [LogUtils] - Set text ThePassword01##!! on By.xpath: //input[@name='password']
+[INFO] 24-07-2023 15:57:42 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:57:43 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Login']
+[INFO] 24-07-2023 15:58:10 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(@data-e2e,'walkIn')]
+[INFO] 24-07-2023 15:58:10 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:58:14 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(@data-e2e,'walkIn')]
+[INFO] 24-07-2023 15:58:21 [main] [LogUtils] - element gets visible: true
+[INFO] 24-07-2023 15:58:23 [main] [LogUtils] - Clicked on the element By.xpath: //md-tab-item[contains(.,'Booking')]
+[ERROR] 24-07-2023 16:00:12 [main] [LogUtils] - Element not exist. By.xpath: //md-select[@placeholder='Table']

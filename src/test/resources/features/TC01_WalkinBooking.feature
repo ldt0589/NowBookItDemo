@@ -15,7 +15,7 @@ Feature: Create the Walk-in Booking
     And User enters "<note>" in Notes tab
     And User clicks on button Save
     Then Verify that popup Booked displays
-    And Verify that Walk-in Booking is created successfully with "<table>", "<prefix_name>", "<phone>", "<note>"
+    And Verify that Walk-in Booking is created successfully
     Examples:
       | table         | prefix_name| phone     | note    |
       | T1*C21 outside| Automation | 423845803 |NoteTest |

@@ -1,6 +1,7 @@
 package nowbookit.com.projects.website.nbi.pages;
 
 import nowbookit.com.keywords.WebUI;
+import nowbookit.com.projects.website.nbi.model.Booking;
 import org.openqa.selenium.By;
 
 import static nowbookit.com.constants.FrameworkConstants.WAIT_EXPLICIT;
@@ -40,6 +41,7 @@ public class adminBookingPage {
     private By headerBookingDetail = By.xpath("//md-dialog//button[contains(@class,'toolbar-header')]");
     private By buttonOpenRestaurant = By.xpath("//button[text()='Open Restaurant']");
     private By inputUser = By.xpath("//input[@name='username']");
+    private Booking objectBooking = new Booking();
 
     public void clickOnWalkInSign() {
         WebUI.smartWait();
@@ -58,6 +60,7 @@ public class adminBookingPage {
     public void selectBookingTable(String table) {
         WebUI.clickElement(dropdownTable);
         WebUI.selectOptionDynamic(listOptionTable, table);
+        objectBooking.setTable(table);
     }
 
     public void openTabCustomer() {
@@ -67,6 +70,8 @@ public class adminBookingPage {
     public void enterCustomerInformation(String prefixName, String phone) {
         WebUI.setText(inputName , prefixName + randomNumber);
         WebUI.setText(inputPhone, phone);
+        objectBooking.setFirstName(prefixName + randomNumber);
+        objectBooking.setPhone(phone);
     }
 
     public void openTabNotes() {
@@ -75,6 +80,7 @@ public class adminBookingPage {
 
     public void enterBookingNote(String note) {
         WebUI.setText(inputNote, note);
+        objectBooking.setNote(note);
     }
 
     public void clickOnSave() {
@@ -89,19 +95,19 @@ public class adminBookingPage {
         WebUI.clickElement(newBookingItem);
     }
 
-    public void verifyBookingTableInfo(String table) {
-        WebUI.verifyElementTextEquals(inputBookedTable, table);
+    public void verifyBookingTableInfo() {
+        WebUI.verifyElementTextEquals(inputBookedTable, objectBooking.getTable());
     }
 
-    public void verifyBookingDetailsInfo(String prefixName, String phone) {
+    public void verifyBookingDetailsInfo() {
         WebUI.clickElement(tabDetails);
-        WebUI.verifyElementAttributeValue(inputBookedName, "value", prefixName + randomNumber);
-        WebUI.verifyElementAttributeValue(inputBookedPhone, "value", phone);
+        WebUI.verifyElementAttributeValue(inputBookedName, "value", objectBooking.getFirstName());
+        WebUI.verifyElementAttributeValue(inputBookedPhone, "value", objectBooking.getPhone());
     }
 
-    public void verifyBookingNotesInfo(String note) {
+    public void verifyBookingNotesInfo() {
         WebUI.clickElement(tabNotes);
-        WebUI.verifyElementTextEquals(inputBookedNote, note);
+        WebUI.verifyElementTextEquals(inputBookedNote, objectBooking.getNote());
     }
 
     public void selectBookingDate(int numberDay) {
@@ -110,6 +116,7 @@ public class adminBookingPage {
 
     public void selectBookingTime() {
         WebUI.clickElement(buttonBookingTime);
+        objectBooking.setTime(WebUI.getAttributeElement(buttonBookingTime, "value"));
     }
 
     public void clickOnNext() {
@@ -118,6 +125,7 @@ public class adminBookingPage {
 
     public void selectBookingService(String serviceName) {
         WebUI.clickElement(By.xpath("//span[text()='" + serviceName + "']"));
+        objectBooking.setService(serviceName);
     }
 
     public void addNumberPeople(String numberPeople) {
@@ -131,6 +139,10 @@ public class adminBookingPage {
         WebUI.setText(inputPhone, phone);
         WebUI.setText(inputEmail, email);
         WebUI.clickElement(spanTerm);
+        objectBooking.setFirstName(firstName + randomNumber);
+        objectBooking.setLastName(lastName + randomNumber);
+        objectBooking.setPhone(phone);
+        objectBooking.setEmail(email);
     }
 
     public void clickOnBookNow() {
@@ -155,29 +167,22 @@ public class adminBookingPage {
             WebUI.clickElement(buttonNextDay);
     }
 
-    public void openWidgetBookingDetail(String firstName, String lastName) {
-        WebUI.clickElement(By.xpath("//md-list-item//span[text()='"+ firstName + randomNumber + " " + lastName + randomNumber +"']"));
+    public void openWidgetBookingDetail() {
+        WebUI.clickElement(By.xpath("//md-list-item//span[text()='"+ objectBooking.getFirstName() + " " + objectBooking.getLastName() +"']"));
     }
 
-//    public void verifyWidgetBookingSummaryInfo(String firstName, String lastName, String phone, String serviceName, String people) {
-//        WebUI.verifyElementChecked(By.xpath("//span[text()='" + serviceName + "']/preceding-sibling::span//input"));
-//        WebUI.verifyElementTextContains(headerBookingDetail, firstName + randomNumber);
-//        WebUI.verifyElementTextContains(headerBookingDetail, lastName + randomNumber);
-//        WebUI.verifyElementTextContains(headerBookingDetail, phone);
-//    }
-
-    public void verifyWidgetBookingCustomerInfo(String firstName, String lastName, String phone) {
-        WebUI.verifyElementTextContains(headerBookingDetail, firstName + randomNumber);
-        WebUI.verifyElementTextContains(headerBookingDetail, lastName + randomNumber);
-        WebUI.verifyElementTextContains(headerBookingDetail, phone);
+    public void verifyWidgetBookingCustomerInfo() {
+        WebUI.verifyElementTextContains(headerBookingDetail, objectBooking.getFirstName());
+        WebUI.verifyElementTextContains(headerBookingDetail, objectBooking.getLastName());
+        WebUI.verifyElementTextContains(headerBookingDetail, objectBooking.getPhone());
 
     }
 
-    public void verifyWidgetBookingServiceInfo(String serviceName) {
-        WebUI.verifyElementExists(By.xpath("//span[text()='" + serviceName + "']"));
+    public void verifyWidgetBookingServiceInfo() {
+        WebUI.verifyElementExists(By.xpath("//span[text()='" + objectBooking.getService() + "']"));
     }
 
-    public void verifyWidgetBookingPeople(String people) {
+    public void verifyWidgetBookingPeople() {
         //verify Widget booking number people is correct
     }
     public void verifyWidgetBookingDate() {
